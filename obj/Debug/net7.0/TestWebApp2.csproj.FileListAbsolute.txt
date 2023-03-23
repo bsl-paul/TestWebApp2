@@ -29,3 +29,4 @@ C:\Git\XYZ\TestWebApp2\obj\Debug\net7.0\refint\TestWebApp2.dll
 C:\Git\XYZ\TestWebApp2\obj\Debug\net7.0\TestWebApp2.pdb
 C:\Git\XYZ\TestWebApp2\obj\Debug\net7.0\TestWebApp2.genruntimeconfig.cache
 C:\Git\XYZ\TestWebApp2\obj\Debug\net7.0\ref\TestWebApp2.dll
+C:\Git\XYZ\TestWebApp2\bin\Debug\net7.0\Test\Test.json

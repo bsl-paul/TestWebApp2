@@ -23,9 +23,9 @@ public sealed class AccessTokenProvider
         }
     }
 
-    public AccessTokenModel? GetToken()
+    public AccessTokenModel? GetAccessToken()
     {
-        if (accessTokenModel == null){
+        if ((accessTokenModel == null) || (accessTokenModel.IsExpired())){
             accessTokenModel = OAuthHandler.GetAccessTokenAsync().Result;
         }
 
