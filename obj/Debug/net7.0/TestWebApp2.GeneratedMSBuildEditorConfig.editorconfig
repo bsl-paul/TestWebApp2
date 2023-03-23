@@ -9,37 +9,45 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = TestWebApp2
 build_property.RootNamespace = TestWebApp2
-build_property.ProjectDir = c:\Git\XYZ\TestWebApp2\
+build_property.ProjectDir = C:\Git\XYZ\TestWebApp2\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = c:\Git\XYZ\TestWebApp2
+build_property.MSBuildProjectDirectory = C:\Git\XYZ\TestWebApp2
 build_property._RazorSourceGeneratorDebug = 
 
-[c:/Git/XYZ/TestWebApp2/Pages/Error.cshtml]
+[C:/Git/XYZ/TestWebApp2/Pages/CustomerListPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ3VzdG9tZXJMaXN0UGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Git/XYZ/TestWebApp2/Pages/Customers.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ3VzdG9tZXJzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Git/XYZ/TestWebApp2/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Git/XYZ/TestWebApp2/Pages/Index.cshtml]
+[C:/Git/XYZ/TestWebApp2/Pages/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Git/XYZ/TestWebApp2/Pages/Privacy.cshtml]
+[C:/Git/XYZ/TestWebApp2/Pages/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Git/XYZ/TestWebApp2/Pages/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Git/XYZ/TestWebApp2/Pages/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Git/XYZ/TestWebApp2/Pages/_ViewImports.cshtml]
+[C:/Git/XYZ/TestWebApp2/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Git/XYZ/TestWebApp2/Pages/_ViewStart.cshtml]
+[C:/Git/XYZ/TestWebApp2/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Git/XYZ/TestWebApp2/Pages/Shared/_Layout.cshtml]
+[C:/Git/XYZ/TestWebApp2/Pages/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-qrtosmeidj

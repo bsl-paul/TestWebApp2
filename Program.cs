@@ -7,9 +7,6 @@ builder.Services.AddRazorPages();
 
 var app = builder.Build();
 
-BCCustomerRepository bCCustomerRepository = new BCCustomerRepository();
-bCCustomerRepository.GetCustomer("");
-
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
 {

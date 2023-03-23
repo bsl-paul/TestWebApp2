@@ -1,0 +1,15 @@
+@using TestWebApp2.Models
+@model List<Customer>
+<table>
+    <tr>
+        <th>Customer No.</th>
+        <th>Customer Name</th>
+    </tr>
+    @foreach (var customer in @Model)
+    {
+        <tr>
+            <td>@customer.Code</td>
+            <td>@customer.Name</td>
+        </tr>
+    }
+</table>

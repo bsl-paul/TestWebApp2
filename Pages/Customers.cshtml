@@ -1,0 +1,19 @@
+@page
+@model CustomerModel
+<div>
+    <h1>Customer List</h1>
+    <div id="partiallist">
+        <partial name="CustomerListPartial" model="@Model.Customers" />
+    </div>
+</div>
+@section scripts{
+    <script>
+        $(document).ready(function () {
+            setInterval(timingLoad,3000);
+            function timingLoad(){
+                $('#partiallist').load('/Customers?handler=CustomerListPartial');
+            }
+        });
+
+    </script>
+}

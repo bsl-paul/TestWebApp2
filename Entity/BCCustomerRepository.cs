@@ -11,7 +11,7 @@ public class BCCustomerRepository : ICustomerRepository
 
     public Customer GetCustomer(string code)
     {
-        String url = @"https://api.businesscentral.dynamics.com/v2.0/production/api/v2.0/companies(2ccf1a8b-15ab-ec11-bb8a-000d3a2a8318)/customers?$format=xml";
+        String url = @"https://api.businesscentral.dynamics.com/v2.0/production/api/v2.0/companies(2ccf1a8b-15ab-ec11-bb8a-000d3a2a8318)/customers";
         HttpClient client = new();
         client.DefaultRequestHeaders.Add("Authorization", $"Bearer {accessTokenProvider.GetAccessToken().AccessToken}");
         client.DefaultRequestHeaders.Add("Data-Access-Intent", "ReadOnly");
@@ -24,6 +24,13 @@ public class BCCustomerRepository : ICustomerRepository
 
     public IEnumerable<Customer> GetCustomers()
     {
-        throw new NotImplementedException();
+        String url = @"https://api.businesscentral.dynamics.com/v2.0/production/api/v2.0/companies(2ccf1a8b-15ab-ec11-bb8a-000d3a2a8318)/customers";
+        HttpClient client = new();
+        client.DefaultRequestHeaders.Add("Authorization", $"Bearer {accessTokenProvider.GetAccessToken().AccessToken}");
+        client.DefaultRequestHeaders.Add("Data-Access-Intent", "ReadOnly");
+        var result = client.GetAsync(url).Result;
+        var response = result.Content.ReadAsStringAsync().Result;
+        var customers = JsonSerializer.Deserialize<CustomerRoot>(response);
+        return customers.value.ToList<Customer>();
     }
 }
