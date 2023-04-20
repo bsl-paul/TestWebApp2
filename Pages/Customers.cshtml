@@ -1,7 +1,7 @@
 @page
 @model CustomerModel
 <div>
-    <h1>Customer List</h1>
+    <h1>Customer List - @ViewData["TESTCONFIG"]</h1>
     <div id="partiallist">
         <partial name="CustomerListPartial" model="@Model.Customers" />
     </div>
